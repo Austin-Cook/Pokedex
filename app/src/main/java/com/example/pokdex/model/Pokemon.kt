@@ -1,0 +1,20 @@
+package com.example.pokdex.model
+
+data class Pokemon(val locationAreaEncounters: String = "",
+                   val types: List<TypesItem>?,
+                   val baseExperience: Int = 0,
+                   val heldItems: List<HeldItemsItem>?,
+                   val weight: Int = 0,
+                   val isDefault: Boolean = false,
+                   val sprites: Sprites,
+                   val pastTypes: List<PastTypesItem>?,
+                   val abilities: List<AbilitiesItem>?,
+                   val gameIndices: List<GameIndicesItem>?,
+                   val species: Species,
+                   val stats: List<StatsItem>?,
+                   val moves: List<MovesItem>?,
+                   val name: String = "",
+                   val id: Int = 0,
+                   val forms: List<FormsItem>?,
+                   val height: Int = 0,
+                   val order: Int = 0)
